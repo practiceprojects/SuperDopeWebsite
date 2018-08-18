@@ -1,0 +1,34 @@
+﻿.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem auto;
+    height: 20rem;
+    padding: 11px;
+    max-width: 1000px;
+}
+
+.flexItem {
+    flex-grow: 1;
+    margin-left: 5px;
+    padding: 11px;
+}
+
+    .flexItem:first-child {
+        margin: 0px;
+    }
+
+.flexItem--2 {
+    align-self:stretch;
+}
+
+.flexItem--3 {
+    flex-grow: 5;
+}
+
+.flexItem--4 {
+    order: -1;
+    flex-basis: 350px;
+}
